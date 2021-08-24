@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./all.min.css">
+    <link rel="stylesheet" href="./fontawesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Education Website </title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/logo.png" alt=""></a>
+            
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur officiis illo ratione,<br/> asperiores pariatur tempora rerum explicabo quas, quaerat </p>
+            <a href="#">Visit us to know more</a>
+        </div>
+    </section>
+
+    <section class="courses">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, aut?</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos maiores, pariatur temporibus totam reiciendis, enim earum perferendis magni consectetur praesentium.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos maiores, pariatur temporibus totam reiciendis, enim earum perferendis magni consectetur praesentium.</p>
+            </div>
+            <div class="course-col">
+                <h3>Advanced</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos maiores, pariatur temporibus totam reiciendis, enim earum perferendis magni consectetur praesentium.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Golbal campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, aut?</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="./eduford_img/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="./eduford_img/newyork.png">
+                <div class="layer">
+                    <h3>NEWYORK</h3>
+                </div>
+            </div>
+
+
+            <div class="campus-col">
+                <img src="./eduford_img/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON DC</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, aut?</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./eduford_img/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eveniet maiores reprehenderit.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="./eduford_img/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eveniet maiores reprehenderit.</p>
+            </div>
+
+
+            <div class="facilities-col">
+                <img src="./eduford_img/cafeteria.png">
+                <h3>Healthy and Tasty Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eveniet maiores reprehenderit.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="testimonials">
+        <h1>What our students says</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="/eduford_img/user1.jpg" alt="">
+                <div class="testimonial-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iusto voluptas molestiae omnis quibusdam, facere eius nesciunt unde, obcaecati provident exercitationem animi quisquam sed! Doloribus!</p>
+                    <h3>Markus luthar</h3>
+                </div>
+            </div>
+
+
+            <div class="testimonials-col">
+                <img src="/eduford_img/user2.jpg" alt="">
+                <div class="testimonial-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero iusto voluptas molestiae omnis quibusdam, facere eius nesciunt unde, obcaecati provident exercitationem animi quisquam sed! Doloribus!</p>
+                    <h3>Markus luthar</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Enroll for our various courses online from <br> anywhere all around the world </h1>
+        <a href="">Contact Us</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident nulla quo quis corrupti <br>deleniti soluta sequi fugit esse cum expedita!</p>
+        <div class="icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-twitter"></i>
+        </div>
+    </section>
+
+
+
+    <script>
+        var navlink = document.getElementById("navLinks");
+
+        function hideMenu(){
+            navlink.style.right="-200px";
+        }
+
+        function showMenu(){
+            navlink.style.right="0";
+        }
+    </script>
+</body>
+</html>
